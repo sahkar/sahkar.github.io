@@ -1,7 +1,7 @@
 :root {
   /* variables */
-  --cg-black: rgb(30, 32, 32);
-  --cg-blue: rgb(36, 94, 255);
+  --cg-main: rgb(50, 111, 36);
+  --cg-blue: rgb(26, 169, 190);
   --cg-grey: rgb(243, 243, 243);
   --cg-white: rgb(255, 255, 255);
 }
@@ -34,7 +34,7 @@ body {
   align-items: center;
   text-align: center;
 
-  background-color: var(--cg-black);
+  background-color: var(--cg-main);
   color: var(--cg-white);
   padding: 0px 0px;
 
@@ -145,7 +145,7 @@ main {
 }
 
 .project-details a {
-  color: var(--cg-black);
+  color: var(--cg-main);
   text-decoration: none;
   font-weight: bold;
   letter-spacing: 1px;
@@ -202,7 +202,7 @@ main {
 /* CSS for resume page */
 
 .button {
-  background-color: var(--cg-black);
+  background-color: var(--cg-main);
   border: none;
   color: var(--cg-white);
 
@@ -255,7 +255,7 @@ form {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--cg-black);
+  background-color: var(--cg-main);
   color: var(--cg-white);
   position: absolute;
   bottom: 0;
